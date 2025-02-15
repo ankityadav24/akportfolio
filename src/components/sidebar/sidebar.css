@@ -1,0 +1,47 @@
+.social-links {
+    position: fixed; 
+    bottom: 5px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-items: center;
+  }
+  .social-links img {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+  }
+  .vertical-line {
+    background-color: #ccc;
+    width: 2px;
+    height: 100px; 
+  }
+  .email-container {
+    position: fixed; 
+    align-items: center;
+    right: 20px;
+    bottom: 25px;
+    display: flex;
+    letter-spacing: 0.2rem;
+    flex-direction: column;
+    gap: 10px;
+  
+  }
+  
+  .email {
+    color: #64ffda;
+    text-transform: lowercase;
+    font-size: large;
+    writing-mode:vertical-lr;
+    text-overflow:ellipsis;
+  
+
+  }
+  @media screen  and (max-width:1030px) {
+    .social-links {
+        display:none;
+    } 
+    
+  }
+  

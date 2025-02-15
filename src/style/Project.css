@@ -1,0 +1,65 @@
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 15px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .image-container img {
+  transform: scale(1.05);
+}
+
+.tech-used {
+  font-size: 14px;
+  color: #d3c6c6;
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.live-demo {
+  background: linear-gradient(135deg, #977684, #e37587);
+}
+
+.source-code {
+  background: linear-gradient(135deg, #026dde, #023367);
+}
+
+.live-demo:hover {
+  background: linear-gradient(135deg, #a85b6e, #66142f);
+}
+.source-code:hover {
+  background: linear-gradient(135deg, #0056b3, #003a80);
+}

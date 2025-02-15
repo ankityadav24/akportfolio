@@ -1,0 +1,61 @@
+@keyframes fadeOut {
+    0% {
+      /* opacity: 1; */
+    }
+    100% {
+      /* opacity: 0; */
+      /* visibility: hidden; */
+    }
+  }
+  
+  @keyframes drawLine {
+    from {
+      stroke-dasharray: 0, 200;
+    }
+    to {
+      stroke-dasharray: 200, 200;
+    }
+  }
+  
+  .splashContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .pentagon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .pentagon svg {
+    width: 100px;
+    height: 100px;
+    stroke: #64ffda; /* Customize color */
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: drawLine 2s linear forwards;
+  }
+  
+  .letter {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #64ffda;
+    animation: fadeOut 0.5s ease-in-out forwards;
+    animation-delay: 2.5s;
+  }
+  

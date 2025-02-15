@@ -1,0 +1,53 @@
+h1 {
+    font-size: 20px;
+    color: #64ffda;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #64ffda;
+    border: 2px solid #64ffda;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .cta-button:hover {
+    background-color: #64ffda;
+    color: #0b1120;
+  }
+  
+  .scrollable-content {
+    margin-top: 20px;
+    padding: 20px;
+    height: 200vh; 
+  }
+  .name{
+    color: rgb(204, 214, 246);
+    
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    text-align: left;  
+  
+    padding-top: 80px; 
+     padding-left: 10vw; 
+     
+
+}
