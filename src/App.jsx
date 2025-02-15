@@ -4,10 +4,12 @@ import Experiance from "./components/experiance/Experiance";
 import HeroBar from "./components/Herobar/HeroBar";
 import NavBar from "./components/navbar/NavBar";
 import SocialSideBar from "./components/sidebar/SocialSideBar";
-import { About } from "./Pages/About";
-import Projects from "./Pages/Projects";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import About from "./components/about/About";
+import Project from "./components/projects/Project";
 import SplashScreen from "./components/splash/SplashScreen";
+import Contact from "./contect/Contact";
+
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -27,9 +29,11 @@ function App() {
           <NavBar />
           <HeroBar />
           <SocialSideBar />
-          <About />
+          <About/>
           <Experiance />
-          <Projects />
+          <Project/>
+          <Contact/>
+          
         </div>
       )}
     </>
