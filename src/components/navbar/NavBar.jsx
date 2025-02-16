@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoClose, IoMenu } from "react-icons/io5";
+import logo from '../../assets/Alogo.jpg';
 import styles from "./NavBar.module.css";
 
 
@@ -18,8 +19,7 @@ const NavBar = () => {
     return (
 
         <nav className={styles.navbar}>
-            <img  src='./public/Alogo.jpg' className={styles.logo} onClick={handlebtn}></img>
-            {/* <button className={styles.logo}  onClick={handlebtn}>A</button> */}
+            <img  src={logo} className={styles.logo} onClick={handlebtn}></img>
             <div className={styles.menu}>
                 <div className={styles.menuicon} onClick={toggelmenu}>
                     {menuopen ? <IoClose /> : <IoMenu />}
