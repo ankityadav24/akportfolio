@@ -7,7 +7,8 @@ import js from '../../assets/skills/js-file.png';
 import java from '../../assets/skills/java.png';
 import mysql from '../../assets/skills/mysql.png';
 import { default as native, default as react } from '../../assets/skills/react.png';
-import styles from "./experience.module.css";
+import styles from "./experiance.module.css";
+
 
 
 
