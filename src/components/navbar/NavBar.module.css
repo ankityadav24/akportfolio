@@ -9,18 +9,10 @@ z-index: 2;
 
 }
 .logo{
-text-decoration: none;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #64ffda;
+    margin-left: 15px;
     border: 2px solid #64ffda;
-    width: 35px;
-    height: 35px;
-    background-color: #04153716;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
 }
 .menu{

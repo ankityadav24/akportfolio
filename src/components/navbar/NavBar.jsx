@@ -18,7 +18,8 @@ const NavBar = () => {
     return (
 
         <nav className={styles.navbar}>
-            <button className={styles.logo}  onClick={handlebtn}>A</button>
+            <img  src='./public/Alogo.jpg' className={styles.logo} onClick={handlebtn}></img>
+            {/* <button className={styles.logo}  onClick={handlebtn}>A</button> */}
             <div className={styles.menu}>
                 <div className={styles.menuicon} onClick={toggelmenu}>
                     {menuopen ? <IoClose /> : <IoMenu />}
