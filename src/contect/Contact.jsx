@@ -1,24 +1,32 @@
-import React from "react";
-
+import React from 'react';
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, } from 'react-icons/fa';
+import "../contect/contact.css";
 const Contact = () => {
   return (
-    <div className="container py-5" id="project">
-      <h1 className="text-center mb-4">Contact Me</h1>
-      <form className="w-50 mx-auto">
-        <div className="mb-3">
-          <label className="form-label">Name</label>
-          <input type="text" className="form-control" placeholder="Enter your name" />
-        </div>
-        <div className="mb-3">
-          <label className="form-label">Email</label>
-          <input type="email" className="form-control" placeholder="Enter your email" />
-        </div>
-        <div className="mb-3">
-          <label className="form-label">Message</label>
-          <textarea className="form-control" rows="4" placeholder="Enter your message"></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary w-100">Send Message</button>
-      </form>
+    <div className="contact-section" id="contact">
+      <h2 className="contact-title">Get in Touch</h2>
+
+      <div className="social-container">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon github">
+          <FaGithub size={30} />
+        </a>
+        <a href="https://www.linkedin.com/in/ankityadav24" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
+          <FaLinkedin size={30} />
+        </a>
+
+        <a href="https://www.instagram.com/ankityadav967?igsh=c3IxNGhtc2lxdjNz" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
+          <FaInstagram size={30} />
+        </a>
+      </div>
+
+      <div className="divider"></div>
+
+      <div className="email-box">
+        <FaEnvelope className="email-icon" />
+        <a href="mailto:ankityadav6548798@gmail.com" className="email-address">
+          ankityadav6548798@gmail.com
+        </a>
+      </div>
     </div>
   );
 };

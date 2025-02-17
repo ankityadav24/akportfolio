@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import '../sidebar/sidebar.css';
 
 export const SocialSideBar = () => {
@@ -14,10 +14,7 @@ export const SocialSideBar = () => {
         <FaLinkedin size={30} style={{ color: "#0077b5" }} />
 
       </a>
-      <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-        <FaTwitter size={30} style={{ color: "#1da1f2" }} />
-      </a>
-      <a href="https://www.instagram.com/ankityadav967?igsh=c3IxNGhtc2lxdjNz" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/ankityadav967?igsh=c3IxNGhtc2lxdjNz" target="_blank" rel="noopener noreferrer">
         <FaInstagram size={30} style={{ color: "#e4405f" }} />
       </a>
       <div className="vertical-line" />

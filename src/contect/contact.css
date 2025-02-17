@@ -1,0 +1,92 @@
+
+.contact-section {
+    text-align: center;
+    
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-title {
+    font-size: 28px;
+    color: #64ffda;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .social-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .github {
+    background-color: #333;
+    color: white;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  .instagram {
+    background-color: #e4405f;
+    color: white;
+  }
+  
+  .divider {
+    width: 30%;
+    height: 2px;
+    background-color: #64ffda;
+    margin: 20px auto;
+  }
+  
+.email-box {
+    background-color: #3b5451;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .email-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .email-icon {
+    font-size: 22px;
+    color: red; 
+  }
+
+  .email-address {
+    font-weight: bold;
+    color: #33d1ac; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  

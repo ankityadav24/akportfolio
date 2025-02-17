@@ -29,16 +29,16 @@ const NavBar = () => {
                         <a href='#about'> About </a>
                     </li>
                     <li>
-                        <a href='#experience'>  experience </a>
+                        <a href='#experience'>  Experience </a>
                     </li>
                     <li>
-                        <a href='#project'>  project </a>
+                        <a href='#project'>  Project </a>
                     </li>
                     <li>
-                        <a href='#contact'>  contact </a>
+                        <a href='#contact'>  Contact </a>
                     </li>
                     <li>
-                    <a href="/ankitr.pdf" download className={styles.resumeButton}>Resume</a>
+                    <a href="./ankityadav.pdf" download className={styles.resumeButton}>Resume</a>
 
                     </li>
 

@@ -11,8 +11,8 @@ z-index: 2;
 .logo{
     margin-left: 15px;
     border: 2px solid #64ffda;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 .menu{
@@ -37,17 +37,16 @@ color: white;
     
 }
 .resumeButton {
-    background-color: #64ffda;
+    background-color: #33d1ac;
     color: #000;
     padding: 8px 15px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    /* transition: background 0.3s ease; */
   }
   
   .resumeButton:hover {
-    background-color: #52e0c4;
+    background-color: #33d1ac;
   }
   
 
