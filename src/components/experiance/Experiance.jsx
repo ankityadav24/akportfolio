@@ -26,16 +26,16 @@ const experience = () => {
   ];
 
   const history = [
-    // {
-    //   role: "Frontend Developer",
-    //   company: "PHP Infosec",
-    //   startDate: "May 2024",
-    //   endDate: "July 2024",
-    //   experience: [
-    //     "Developed responsive and interactive UI components.",
-    //     "Collaborated with the team to build modern web applications.",
-    //   ],
-    // },
+    {
+      role: "Frontend Developer",
+      company: "iTechSarathi Private Limited",
+      startDate: "Feb 2025",
+      endDate: "Present",
+      experience: [
+        "Developed responsive and interactive UI components.",
+        "Collaborated with the team to build modern web applications.",
+      ],
+    },
     {
       role:"React Native Developer (Intern)",
       company: "BmCoder",

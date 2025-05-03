@@ -38,7 +38,7 @@ const NavBar = () => {
                         <a href='#contact'>  Contact </a>
                     </li>
                     <li>
-                    <a href="./ankityadav.pdf" download className={styles.resumeButton}>Resume</a>
+                    <a href="./ankitresume.pdf" download className={styles.resumeButton}>Resume</a>
 
                     </li>
 
